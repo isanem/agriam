@@ -1,0 +1,183 @@
+* {
+    -ms-overflow-style: none;  /* No scrollbar for IE and Edge */
+    scrollbar-width: none;  /* No scrollbar for Firefox */
+}
+
+/* No scrollbar for Chrome */
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* CLEARFIX */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: darkgray;
+    
+}
+
+h3 {
+    font-family: 'Walter Turncoat', cursive;
+}
+
+#header {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 25px;
+    height: 50px;
+    margin-bottom: 10px;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    
+}
+
+/* MENU / NAVBAR */
+
+#main-nav {
+    background-color: darkgray;
+    color: black;
+    top: 0;
+    width: auto;
+    height: 50px;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    color: black;
+    padding: 8px 16px;
+    display: block;
+}
+
+#main-nav ul li a:hover{
+    background-color:lightgray;
+    color: black;
+}
+
+#main-nav > ul > li {
+    float: left;
+}
+
+/* PRESENTATION */
+
+.presentation {
+    position: relative;
+    text-align: center;
+    background: black;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.brand-name {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 120px;
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px) {
+    .brand-name {
+        font-size: 80px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .brand-name {
+        font-size: 40px;
+    }
+  }
+
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;    
+    opacity: 0.5;
+}
+
+/* DIVIDERS */
+
+.divider {
+    font-family: 'Walter Turncoat', cursive;
+    background-color: lightgray;
+    height: 60px;
+    padding: 10px 0;
+    text-align: center;
+
+}
+/* ABOUT */
+
+.info {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* PROJECTS */
+
+.portfolio {
+    margin: auto;
+    background-color: whitesmoke;
+    
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.box {
+    padding: 10px;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;;
+}
+
+.box-img {
+    border-radius: 25px;
+}
+
+/* CONTACT FORM */
+
+#contact-form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 200px;
+    width: auto;
+    background-color: navy;
+}
