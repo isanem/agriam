@@ -125,11 +125,9 @@ h3 {
 }
 /* ABOUT */
 
-
-
 .info img {
     float: left;
-    margin: 10px 10px;
+    margin: 10px 20px;
     
 }
 
@@ -167,7 +165,7 @@ h3 {
 .box {
     padding: 10px;   
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;;
+    font-size: 20px;;
 }
 
 .box-img {
@@ -202,7 +200,10 @@ button {
 /* FOOTER */
 
 .footer {
-    height: 100px;
-    width: auto;
-    background-color: navy;
+    height: 80px;
+    padding-top: 20px;
+    background-color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    text-align: center;
 }
